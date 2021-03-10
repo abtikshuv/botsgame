@@ -333,7 +333,7 @@ const getLeaderboard = async (user) => {
     // }
 
     // return result;
-    if (new Date().getHours() >= 15 && (!user || user.group !== "admin")) return [];
+    //if (new Date().getHours() >= 15 && (!user || user.group !== "admin")) return [];
     return dbLeaderboard.get("leaderboard").value();
 }
 
