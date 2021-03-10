@@ -1,0 +1,108 @@
+{
+  "leaderboard": [
+    {
+      "displayName": "Code Geass",
+      "name": 1,
+      "positions": [
+        2,
+        2,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        4,
+        12,
+        4,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "color": "#00939283",
+      "score": 37
+    },
+    {
+      "displayName": "Ofir's Angels",
+      "name": 2,
+      "positions": [
+        4,
+        1,
+        2,
+        2,
+        2,
+        9,
+        3,
+        3,
+        2,
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "color": "#00800080",
+      "score": 30
+    },
+    {
+      "displayName": "404NameNotFound",
+      "name": 6,
+      "positions": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        7,
+        12,
+        11,
+        8,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "color": "#ffc800ad",
+      "score": 26
+    },
+    {
+      "displayName": "Asr",
+      "name": 8,
+      "positions": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "color": "#29b310ad",
+      "score": 23
+    }
+  ]
+}

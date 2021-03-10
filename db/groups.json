@@ -1,0 +1,35 @@
+{
+  "groups": [
+    {
+      "id": 1,
+      "name": "Code Geass",
+      "password": "AKFUX1",
+      "botVersion": 16
+    },
+    {
+      "id": 2,
+      "name": "Ofir's Angels",
+      "password": "XKMEF2",
+      "botVersion": 9
+    },
+    {
+      "id": 6,
+      "name": "404NameNotFound",
+      "password": "CJSKEJ6",
+      "botVersion": 11
+    },
+    {
+      "id": 8,
+      "name": "Asr",
+      "password": "FHSTE8",
+      "botVersion": 5
+    },
+    {
+      "id": 13,
+      "name": "test",
+      "password": "test",
+      "botVersion": 18
+    }
+  ],
+  "games": []
+}
