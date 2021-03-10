@@ -48,6 +48,12 @@ app.use(session({
   secret: process.env.SESSION_SECRET || 'supersecretysecret',
   resave: false,
   saveUninitialized: false,
+  cookie: {
+    path: '/',
+    secure: true,
+    maxAge: null,
+    sameSite: 'none'
+  }
 }));
 app.use(passport.initialize());
 app.use(passport.session());
