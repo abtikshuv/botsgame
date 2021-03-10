@@ -47,14 +47,7 @@ app.use(cookieParser());
 app.use(session({
   secret: process.env.SESSION_SECRET || 'supersecretysecret',
   resave: false,
-  saveUninitialized: false,
-  cookie: {
-    path: '/',
-    secure: true,
-    maxAge: 1000*60*60*24,
-    sameSite: 'none',
-    httpOnly: true
-  }
+  saveUninitialized: false
 }));
 app.use(passport.initialize());
 app.use(passport.session());
