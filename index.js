@@ -50,7 +50,8 @@ app.use(session({
   saveUninitialized: false,
   cookie: {
     httpOnly: true,
-    sameSite: 'none'
+    sameSite: 'none',
+    secure: true
   }
 }));
 app.use(passport.initialize());
