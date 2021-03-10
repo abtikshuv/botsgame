@@ -47,7 +47,10 @@ app.use(cookieParser());
 app.use(session({
   secret: process.env.SESSION_SECRET || 'supersecretysecret',
   resave: false,
-  saveUninitialized: false
+  saveUninitialized: false,
+  cookie: {
+    httpOnly: true
+  }
 }));
 app.use(passport.initialize());
 app.use(passport.session());
