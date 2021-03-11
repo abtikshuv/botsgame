@@ -1,4 +1,32 @@
 {
   "leaderboard": [
+    {
+      "displayName": "Code Geass",
+      "name": 1,
+      "positions": [],
+      "color": "#00939283",
+      "score": 0
+    },
+    {
+      "displayName": "Ofir's Angels",
+      "name": 2,
+      "positions": [],
+      "color": "#00800080",
+      "score": 0
+    },
+    {
+      "displayName": "404NameNotFound",
+      "name": 6,
+      "positions": [],
+      "color": "#ffc800ad",
+      "score": 0
+    },
+    {
+      "displayName": "test",
+      "name": 8,
+      "positions": [],
+      "color": "#29b310ad",
+      "score": 0
+    }
   ]
 }
