@@ -20,15 +20,9 @@
     },
     {
       "id": 8,
-      "name": "Asr",
-      "password": "FHSTE8",
-      "botVersion": 5
-    },
-    {
-      "id": 13,
       "name": "test",
       "password": "test",
-      "botVersion": 18
+      "botVersion": 5
     }
   ],
   "games": []
