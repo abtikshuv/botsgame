@@ -23,16 +23,19 @@ const writeFile = (name, content) => {
 };
 
 const uploadBot = async (groupName, botCode, temp = false) => {
+    console.log('upload bot!!!')
     if (forbiddenPhrases.some(f => f.test(botCode)))
         return `some of the following forbidden strings were found: ${forbiddenPhrases.join(', ')}`;
 
     let { botVersion = 0, id: groupId } = getGroup(groupName);
+    console.log('upload bot after get group!!!')
 
     let dir = `./bots/${groupId}`;
     if (!fs.existsSync(dir))
         fs.mkdirSync(dir);
 
     let newBotVersion = botVersion + 1;
+    console.log('upload bot new version' + newBotVersion)
 
     await updateGroup(groupName, { botVersion: newBotVersion });
 

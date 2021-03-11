@@ -12,6 +12,7 @@ router.post('/bot', (req, res) => {
     uploadBot(req.user.group, botCode).then((success) => {
         res.send(success);
     });
+    console.log('upload bot new done')
 });
 
 router.get('/allBots', asyncMiddleware(async (req, res) => {
