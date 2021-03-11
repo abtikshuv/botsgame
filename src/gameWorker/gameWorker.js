@@ -5,7 +5,7 @@ const { getNextGameId, saveGameToDb, getAllGroups, getLeaderboard, setLeaderboar
 const { clearGames } = require('../utils/dbUtils')
 
 
-const gameExecTimes = [[10, 30], [11, 0], [11, 30], [12, 0], [12, 30], [13, 0], [13, 30], [14, 0], [14, 30], [15, 0], [15, 30]]
+const gameExecTimes = [[10, 0], [10, 30], [11, 0], [11, 30], [12, 0], [12, 30], [13, 0], [13, 30], [14, 0], [14, 30], [15, 0]]
 //FOR TESTING -->
 //const gameExecTimes = [[13, 15], [13, 45], [14, 15], [14, 45]]
 const GAMESEACHRUN = 5; // SHOULD BE 5 // * number of playes | MAX SCORE = 5*number_of_players ~ 50
