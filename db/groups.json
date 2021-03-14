@@ -23,6 +23,78 @@
       "name": "test",
       "password": "test",
       "botVersion": 0
+    },
+    {
+      "id": 11,
+      "name": "11",
+      "password": "11",
+      "botVersion": 0
+    },
+    {
+      "id": 12,
+      "name": "12",
+      "password": "12",
+      "botVersion": 0
+    },
+    {
+      "id": 13,
+      "name": "13",
+      "password": "13",
+      "botVersion": 0
+    },
+    {
+      "id": 14,
+      "name": "14",
+      "password": "14",
+      "botVersion": 0
+    },
+    {
+      "id": 15,
+      "name": "15",
+      "password": "15",
+      "botVersion": 0
+    },
+    {
+      "id": 16,
+      "name": "16",
+      "password": "16",
+      "botVersion": 0
+    },
+    {
+      "id": 17,
+      "name": "17",
+      "password": "17",
+      "botVersion": 0
+    },
+    {
+      "id": 18,
+      "name": "18",
+      "password": "18",
+      "botVersion": 0
+    },
+    {
+      "id": 19,
+      "name": "19",
+      "password": "19",
+      "botVersion": 0
+    },
+    {
+      "id": 20,
+      "name": "20",
+      "password": "20",
+      "botVersion": 0
+    },
+    {
+      "id": 21,
+      "name": "21",
+      "password": "21",
+      "botVersion": 0
+    },
+    {
+      "id": 22,
+      "name": "22",
+      "password": "22",
+      "botVersion": 0
     }
   ],
   "games": []
