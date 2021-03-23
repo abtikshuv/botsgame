@@ -25,7 +25,7 @@ const PORT = process.env.PORT || 8099;
 
 app.use(cors(
   {
-    origin: 'https://botsgame.herokuapp.com',
+    origin: 'https://drone-app.tikshuv.navy.idf',
     credentials: true
   }
 ));
